@@ -1,12 +1,30 @@
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+
+// Import your pages
+import Home_page from './pages/Home_page';
+import About_me from './pages/About_me';
+import Projects from './pages/Projects';
+import CV from './pages/CV';
+import Contact from './pages/Contact';
+
+
 function App() {
   return (
-    <div style={{ padding: "40px", fontFamily: "Arial" }}>
-      <h1>Doyoung An</h1>
-      <h2>Electrical Engineering Graduate</h2>
-      <p>Power Systems | Utilities | Energy Consulting</p>
-    </div>
-  )
+    /* basename tells React to ignore the repo name in the URL for routing purposes */
+    <Router basename="/Doyoung_An-portfolio">
+      <Routes>
+        {/* Landing Page */}
+        <Route path="/" element={<Home_page />} />
+
+        {/* Updated path to 'about_me' to match component and avoid space errors */}
+        <Route path="/about_me" element={<About_me />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/CV" element={<CV />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
+    </Router>
+  );
 }
 
-export default App
-
+export default App;
