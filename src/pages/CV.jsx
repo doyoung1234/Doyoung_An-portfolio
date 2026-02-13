@@ -26,7 +26,7 @@ function Resume() {
         {/* Content Area */}
         <div style={scrollContentStyle}>
           <header style={headerGroup}>
-            <h2 style={sectionTitleStyle}>Curriculum Vitae</h2>
+            <h2 style={sectionTitleStyle}>CV</h2>
             <div style={dividerStyle}></div>
           </header>
 
