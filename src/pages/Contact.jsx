@@ -75,12 +75,12 @@ function Contact() {
 
 const overlayStyle = {
   height: '100vh', width: '100vw', display: 'flex', justifyContent: 'center', alignItems: 'center',
-  background: 'rgba(239, 235, 224, 0.7)', backdropFilter: 'blur(8px)', position: 'fixed', top: 0, left: 0, zIndex: 100
+  background: 'rgba(239, 235, 224, 0.7)', backdropFilter: 'blur(12px)', position: 'fixed', top: 0, left: 0, zIndex: 100
 };
 
 const modalContainerStyle = {
   background: '#F9F7F2', width: '850px', padding: '60px', position: 'relative',
-  border: '1px solid #DEDAD2', boxShadow: '0 50px 100px rgba(0,0,0,0.15)', display: 'flex', flexDirection: 'column', borderRadius: '2px'
+  border: '1px solid #DEDAD2', boxShadow: '0 50px 100px rgba(0,0,0,0.15)', display: 'flex', flexDirection: 'column', borderRadius: '2px', fontFamily: '"Times New Roman", Times, serif'
 };
 
 const closeButtonStyle = {
@@ -90,28 +90,28 @@ const closeButtonStyle = {
 const scrollContentStyle = { zIndex: 1 };
 
 const sectionTitleStyle = {
-  fontFamily: '"Times New Roman", serif', fontSize: '3.8rem', margin: 0, color: '#222', letterSpacing: '-1.5px'
+  fontFamily: '"Times New Roman", Times, serif', fontSize: '3.4rem', margin: 0, color: '#222', letterSpacing: '-1.5px'
 };
 
 const dividerStyle = { width: '60px', height: '2px', background: '#C4C0B7', marginTop: '12px', marginBottom: '45px' };
 
-const bodyTextStyle = { fontSize: '1.1rem', color: '#444', lineHeight: '1.6' };
+const bodyTextStyle = { fontSize: '1.2rem', color: '#222', lineHeight: '1.6' };
 
 const introText = { marginBottom: '40px', maxWidth: '500px', fontWeight: '300' };
 
 const contactDetails = { marginTop: '20px' };
 
 const subHeaderStyle = {
-  fontSize: '0.75rem', textTransform: 'uppercase', letterSpacing: '1.5px', color: '#999', marginTop: '30px', marginBottom: '10px', fontWeight: '700'
+  fontSize: '1.4rem', textTransform: 'uppercase', letterSpacing: '1.5px', color: '#999', marginTop: '30px', marginBottom: '10px', fontWeight: '700'
 };
 
 const emailLinkStyle = {
-  fontSize: '1.5rem', textDecoration: 'none', transition: 'all 0.3s ease', fontFamily: '"Times New Roman", serif', display: 'inline-block'
+  fontSize: '1.2rem', textDecoration: 'none', transition: 'all 0.3s ease', fontFamily: '"Times New Roman", Times, serif', display: 'inline-block'
 };
 
-const detailText = { fontSize: '1rem', color: '#444', margin: 0 };
+const detailText = { fontSize: '1.2rem', color: '#222', margin: 0 };
 
-const simpleLink = { color: '#444', textDecoration: 'underline', cursor: 'pointer' };
+const simpleLink = { color: '#222', textDecoration: 'underline', cursor: 'pointer' };
 
 const footerStyle = { marginTop: '80px', display: 'flex', alignItems: 'center' };
 

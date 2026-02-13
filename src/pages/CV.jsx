@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
-function Resume() {
+function CV() {
   const [isHovered, setIsHovered] = useState(false);
   const [btnHover, setBtnHover] = useState(false);
 
@@ -103,12 +103,12 @@ function Resume() {
 
 const overlayStyle = {
   height: '100vh', width: '100vw', display: 'flex', justifyContent: 'center', alignItems: 'center',
-  background: 'rgba(239, 235, 224, 0.7)', backdropFilter: 'blur(8px)', position: 'fixed', top: 0, left: 0, zIndex: 100
+  background: 'rgba(239, 235, 224, 0.7)', backdropFilter: 'blur(12px)', position: 'fixed', top: 0, left: 0, zIndex: 100
 };
 
 const modalContainerStyle = {
   background: '#F9F7F2', width: '850px', maxHeight: '85vh', padding: '60px', position: 'relative',
-  border: '1px solid #DEDAD2', boxShadow: '0 50px 100px rgba(0,0,0,0.15)', display: 'flex', flexDirection: 'column', overflow: 'hidden'
+  border: '1px solid #DEDAD2', boxShadow: '0 50px 100px rgba(0,0,0,0.15)', display: 'flex', flexDirection: 'column', overflow: 'hidden', fontFamily: '"Times New Roman", Times, serif'
 };
 
 const closeButtonStyle = {
@@ -118,7 +118,7 @@ const closeButtonStyle = {
 const scrollContentStyle = { overflowY: 'auto', paddingRight: '15px' };
 
 const sectionTitleStyle = {
-  fontFamily: '"Times New Roman", serif', fontSize: '3.8rem', margin: 0, color: '#222', letterSpacing: '-1.5px'
+  fontFamily: '"Times New Roman", Times, serif', fontSize: '3.4rem', margin: 0, color: '#222', letterSpacing: '-1.5px'
 };
 
 const dividerStyle = { width: '60px', height: '2px', background: '#C4C0B7', marginTop: '12px' };
@@ -128,16 +128,16 @@ const topActionArea = {
 };
 
 const subTitleStyle = {
-  fontSize: '0.85rem', textTransform: 'uppercase', letterSpacing: '3px', color: '#888', margin: 0, fontWeight: '600'
+  fontSize: '1.2rem', textTransform: 'uppercase', letterSpacing: '3px', color: '#888', margin: 0, fontWeight: '600'
 };
 
 const downloadBtnStyle = {
-  padding: '10px 20px', border: '1px solid #222', fontSize: '0.75rem', textTransform: 'uppercase',
+  padding: '10px 20px', border: '1px solid #222', fontSize: '1rem', textTransform: 'uppercase',
   letterSpacing: '1px', fontWeight: '700', textDecoration: 'none', transition: 'all 0.3s ease', cursor: 'pointer'
 };
 
 const subHeaderStyle = {
-  fontSize: '0.75rem', textTransform: 'uppercase', letterSpacing: '1.5px', color: '#999', marginTop: '40px', marginBottom: '20px', fontWeight: '700'
+  fontSize: '1.4rem', textTransform: 'uppercase', letterSpacing: '1.5px', color: '#999', marginTop: '40px', marginBottom: '20px', fontWeight: '700'
 };
 
 const cvRow = {
@@ -146,13 +146,13 @@ const cvRow = {
 
 const cvMain = { display: 'flex', flexDirection: 'column', gap: '4px' };
 
-const companyName = { fontSize: '1.2rem', color: '#222', fontWeight: '500', fontFamily: '"Times New Roman", serif' };
+const companyName = { fontSize: '1.2rem', color: '#222', fontWeight: '500', fontFamily: '"Times New Roman", Times, serif' };
 
-const jobTitle = { fontSize: '0.9rem', color: '#666', fontStyle: 'italic' };
+const jobTitle = { fontSize: '1rem', color: '#222', fontStyle: 'italic' };
 
-const durationText = { fontSize: '0.85rem', color: '#999', textAlign: 'right', minWidth: '150px' };
+const durationText = { fontSize: '1.2rem', color: '#222', textAlign: 'right', minWidth: '150px' };
 
-const skillsText = { fontSize: '0.95rem', color: '#444', lineHeight: '1.6', letterSpacing: '0.5px' };
+const skillsText = { fontSize: '1rem', color: '#222', lineHeight: '1.6', letterSpacing: '0.5px' };
 
 const footerStyle = { marginTop: '60px', display: 'flex', alignItems: 'center' };
 
@@ -162,4 +162,4 @@ const bodyTextStyle = { paddingBottom: '20px' };
 
 const headerGroup = { marginBottom: '5px' };
 
-export default Resume;
+export default CV;

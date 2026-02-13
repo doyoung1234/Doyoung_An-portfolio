@@ -68,7 +68,7 @@ function Home_page() {
 const fullPageStyle = {
   height: '100vh', width: '100vw', display: 'flex', justifyContent: 'center', alignItems: 'center',
   background: 'linear-gradient(to right, #FAF9F6 0%, #FAF9F6 6%, #EFEBE0 6%, #EFEBE0 94%, #FAF9F6 94%, #FAF9F6 100%)',
-  margin: 0, fontFamily: '"Inter", sans-serif', position: 'relative', overflow: 'hidden'
+  margin: 0, fontFamily: '"Times New Roman", Times, serif', position: 'relative', overflow: 'hidden'
 };
 
 const verticalLineLeft = { position: 'absolute', left: '6%', top: 0, bottom: 0, width: '1px', background: 'rgba(196, 192, 183, 0.4)', zIndex: 1 };
@@ -104,7 +104,7 @@ const nameStyle = {
 };
 
 const titleStyle = {
-  fontSize: '0.9rem', color: '#888', textTransform: 'uppercase',
+  fontSize: '0.9rem', color: '#999', textTransform: 'uppercase',
   letterSpacing: '3.5px', fontWeight: '600', margin: 0, whiteSpace: 'nowrap' 
 };
 

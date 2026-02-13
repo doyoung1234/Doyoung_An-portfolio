@@ -102,8 +102,8 @@ const overlayStyle = {
 };
 
 const modalContainerStyle = {
-  background: '#F9F7F2', width: '800px', maxHeight: '85vh', padding: '50px', position: 'relative',
-  border: '1px solid #DEDAD2', boxShadow: '0 40px 80px rgba(0,0,0,0.1)', display: 'flex', flexDirection: 'column'
+  background: '#F9F7F2', width: '850px', maxHeight: '85vh', padding: '50px', position: 'relative',
+  border: '1px solid #DEDAD2', boxShadow: '0 40px 80px rgba(0,0,0,0.1)', display: 'flex', flexDirection: 'column', fontFamily: '"Inter", sans-serif'
 };
 
 const closeButtonStyle = {
@@ -113,7 +113,7 @@ const closeButtonStyle = {
 const headerGroup = { marginBottom: '15px' };
 
 const sectionTitleStyle = {
-  fontFamily: '"Times New Roman", serif', fontSize: '2.8rem', margin: 0, color: '#222', letterSpacing: '-1px'
+  fontFamily: '"Times New Roman", Times, serif', fontSize: '3.4rem', margin: 0, color: '#222', letterSpacing: '-1px'
 };
 
 const dividerStyle = { width: '40px', height: '1.5px', background: '#C4C0B7', marginTop: '12px' };
@@ -141,29 +141,29 @@ const projectRowStyle = {
 const detailsStyle = { flex: 1 };
 
 const projectSubtitleStyle = { 
-  fontSize: '0.65rem', textTransform: 'uppercase', letterSpacing: '1.5px', color: '#AAA', marginBottom: '6px', fontWeight: '700' 
+  fontSize: '0.8rem', textTransform: 'uppercase', letterSpacing: '1.5px', color: '#AAA', marginBottom: '6px', fontWeight: '700' 
 };
 
 const projectTitleStyle = { 
-  fontFamily: '"Times New Roman", serif', fontSize: '1.5rem', color: '#222', margin: 0, lineHeight: '1.2' 
+  fontFamily: '"Times New Roman", Times, serif', fontSize: '1.4rem', color: '#222', margin: 0, lineHeight: '1.2' 
 };
 
 const projectDescriptionStyle = { 
-  fontSize: '0.9rem', color: '#555', lineHeight: '1.6', margin: '15px 0', maxWidth: '600px' 
+  fontSize: '1rem', color: '#555', lineHeight: '1.6', margin: '15px 0', maxWidth: '600px' 
 };
 
 const deliverableBox = { 
   background: '#F1EFE9', padding: '12px', borderRadius: '2px', marginBottom: '15px', borderLeft: '2px solid #C4C0B7' 
 };
 
-const deliverableLabel = { fontSize: '0.7rem', fontWeight: '700', color: '#777', textTransform: 'uppercase' };
+const deliverableLabel = { fontSize: '0.9rem', fontWeight: '700', color: '#666', textTransform: 'uppercase' };
 
-const deliverableText = { fontSize: '0.85rem', color: '#666', fontStyle: 'italic' };
+const deliverableText = { fontSize: '0.9rem', color: '#666', fontStyle: 'italic' };
 
 const tagContainerStyle = { display: 'flex', gap: '8px', flexWrap: 'wrap' };
 
 const tagStyle = { 
-  fontSize: '0.6rem', color: '#999', border: '1px solid #DEDAD2', padding: '3px 8px', borderRadius: '2px', textTransform: 'uppercase' 
+  fontSize: '0.8rem', color: '#999', border: '1px solid #DEDAD2', padding: '3px 8px', borderRadius: '2px', textTransform: 'uppercase' 
 };
 
 const footerStyle = { marginTop: '30px', display: 'flex', alignItems: 'center' };
